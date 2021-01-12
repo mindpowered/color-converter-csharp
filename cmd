@@ -1,0 +1,13 @@
+/nologo
+/optimize+
+/debug-
+/unsafe-
+/warn:0
+/out:c:/builds/mindpowered/logic/color-converter/build/vcs/csharp/bin/colorconverter.dll
+/target:library
+/reference:c:/builds/mindpowered/logic/color-converter/build/vcs/csharp/bin/maglev.dll
+src\EnumValue.cs
+src\colorconverter\ColorConverter.cs
+src\Type.cs
+src\UInt.cs
+src\mindpowered\colorconverter\ColorConverter.cs
