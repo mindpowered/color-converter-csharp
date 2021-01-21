@@ -86,6 +86,44 @@ namespace mindpowered.colorconverter {
 		}
 
 		/**
+		 * Convert from HEX
+		 * @param hex 
+		 * @return {object[]} 
+		*/
+		public object[] FromHEX(string hex)
+		{
+			global::maglev.MagLevCs mybus = global::maglev.MagLevCs.getInstance("default");
+			global::Array<object> args = new global::Array<object>();
+			args.push(hex);
+			object[] ret = {};
+			MyCallbackDelegate async_delegate = delegate (object async_ret) { ret = (object[]) async_ret; };
+			global::haxe.lang.Function async_callback = global::maglev.MagLevCs.callbackDelegateToHaxeFunction(async_delegate);
+			mybus.call("ColorConverter.FromHEX", args, async_callback);
+			return ret;
+		}
+
+		/**
+		 * Convert from XYZ
+		 * @param x 
+		 * @param y 
+		 * @param z 
+		 * @return {object[]} 
+		*/
+		public object[] FromXYZ(double x, double y, double z)
+		{
+			global::maglev.MagLevCs mybus = global::maglev.MagLevCs.getInstance("default");
+			global::Array<object> args = new global::Array<object>();
+			args.push(x);
+			args.push(y);
+			args.push(z);
+			object[] ret = {};
+			MyCallbackDelegate async_delegate = delegate (object async_ret) { ret = (object[]) async_ret; };
+			global::haxe.lang.Function async_callback = global::maglev.MagLevCs.callbackDelegateToHaxeFunction(async_delegate);
+			mybus.call("ColorConverter.FromXYZ", args, async_callback);
+			return ret;
+		}
+
+		/**
 		 * Convert from RGB using illumination and observer angles
 		 * @param r 
 		 * @param g 
@@ -159,6 +197,52 @@ namespace mindpowered.colorconverter {
 			MyCallbackDelegate async_delegate = delegate (object async_ret) { ret = (object[]) async_ret; };
 			global::haxe.lang.Function async_callback = global::maglev.MagLevCs.callbackDelegateToHaxeFunction(async_delegate);
 			mybus.call("ColorConverter.ConvertCMYK", args, async_callback);
+			return ret;
+		}
+
+		/**
+		 * Convert from HEX using illumination and observer angles
+		 * @param hex 
+		 * @param observer1 
+		 * @param observer2 
+		 * @return {object[]} 
+		*/
+		public object[] ConvertHEX(string hex, string observer1, string observer2)
+		{
+			global::maglev.MagLevCs mybus = global::maglev.MagLevCs.getInstance("default");
+			global::Array<object> args = new global::Array<object>();
+			args.push(hex);
+			args.push(observer1);
+			args.push(observer2);
+			object[] ret = {};
+			MyCallbackDelegate async_delegate = delegate (object async_ret) { ret = (object[]) async_ret; };
+			global::haxe.lang.Function async_callback = global::maglev.MagLevCs.callbackDelegateToHaxeFunction(async_delegate);
+			mybus.call("ColorConverter.ConvertHEX", args, async_callback);
+			return ret;
+		}
+
+		/**
+		 * Convert from XYZ using illumination and observer angles
+		 * @param x 
+		 * @param y 
+		 * @param z 
+		 * @param observer1 
+		 * @param observer2 
+		 * @return {object[]} 
+		*/
+		public object[] ConvertXYZ(double x, double y, double z, string observer1, string observer2)
+		{
+			global::maglev.MagLevCs mybus = global::maglev.MagLevCs.getInstance("default");
+			global::Array<object> args = new global::Array<object>();
+			args.push(x);
+			args.push(y);
+			args.push(z);
+			args.push(observer1);
+			args.push(observer2);
+			object[] ret = {};
+			MyCallbackDelegate async_delegate = delegate (object async_ret) { ret = (object[]) async_ret; };
+			global::haxe.lang.Function async_callback = global::maglev.MagLevCs.callbackDelegateToHaxeFunction(async_delegate);
+			mybus.call("ColorConverter.ConvertXYZ", args, async_callback);
 			return ret;
 		}
 
@@ -237,6 +321,50 @@ namespace mindpowered.colorconverter {
 		}
 
 		/**
+		 * Add a reference color
+		 * @param system 
+		 * @param name 
+		 * @param description 
+		 * @param hex 
+		*/
+		public void AddReferenceColorByHEX(string system, string name, string description, string hex)
+		{
+			global::maglev.MagLevCs mybus = global::maglev.MagLevCs.getInstance("default");
+			global::Array<object> args = new global::Array<object>();
+			args.push(system);
+			args.push(name);
+			args.push(description);
+			args.push(hex);
+			MyCallbackDelegate async_delegate = delegate (object async_ret) {};
+			global::haxe.lang.Function async_callback = global::maglev.MagLevCs.callbackDelegateToHaxeFunction(async_delegate);
+			mybus.call("ColorConverter.AddReferenceColorByHEX", args, async_callback);
+		}
+
+		/**
+		 * Add a reference color
+		 * @param system 
+		 * @param name 
+		 * @param description 
+		 * @param x 
+		 * @param y 
+		 * @param z 
+		*/
+		public void AddReferenceColorByXYZ(string system, string name, string description, double x, double y, double z)
+		{
+			global::maglev.MagLevCs mybus = global::maglev.MagLevCs.getInstance("default");
+			global::Array<object> args = new global::Array<object>();
+			args.push(system);
+			args.push(name);
+			args.push(description);
+			args.push(x);
+			args.push(y);
+			args.push(z);
+			MyCallbackDelegate async_delegate = delegate (object async_ret) {};
+			global::haxe.lang.Function async_callback = global::maglev.MagLevCs.callbackDelegateToHaxeFunction(async_delegate);
+			mybus.call("ColorConverter.AddReferenceColorByXYZ", args, async_callback);
+		}
+
+		/**
 		 * 
 		 * @param r 
 		 * @param g 
@@ -298,6 +426,44 @@ namespace mindpowered.colorconverter {
 			MyCallbackDelegate async_delegate = delegate (object async_ret) { ret = (object[]) async_ret; };
 			global::haxe.lang.Function async_callback = global::maglev.MagLevCs.callbackDelegateToHaxeFunction(async_delegate);
 			mybus.call("ColorConverter.FindReferenceColorByCMYK", args, async_callback);
+			return ret;
+		}
+
+		/**
+		 * 
+		 * @param hex 
+		 * @return {object[]} 
+		*/
+		public object[] FindReferenceColorByHEX(string hex)
+		{
+			global::maglev.MagLevCs mybus = global::maglev.MagLevCs.getInstance("default");
+			global::Array<object> args = new global::Array<object>();
+			args.push(hex);
+			object[] ret = {};
+			MyCallbackDelegate async_delegate = delegate (object async_ret) { ret = (object[]) async_ret; };
+			global::haxe.lang.Function async_callback = global::maglev.MagLevCs.callbackDelegateToHaxeFunction(async_delegate);
+			mybus.call("ColorConverter.FindReferenceColorByHEX", args, async_callback);
+			return ret;
+		}
+
+		/**
+		 * 
+		 * @param x 
+		 * @param y 
+		 * @param z 
+		 * @return {object[]} 
+		*/
+		public object[] FindReferenceColorByXYZ(double x, double y, double z)
+		{
+			global::maglev.MagLevCs mybus = global::maglev.MagLevCs.getInstance("default");
+			global::Array<object> args = new global::Array<object>();
+			args.push(x);
+			args.push(y);
+			args.push(z);
+			object[] ret = {};
+			MyCallbackDelegate async_delegate = delegate (object async_ret) { ret = (object[]) async_ret; };
+			global::haxe.lang.Function async_callback = global::maglev.MagLevCs.callbackDelegateToHaxeFunction(async_delegate);
+			mybus.call("ColorConverter.FindReferenceColorByXYZ", args, async_callback);
 			return ret;
 		}
 

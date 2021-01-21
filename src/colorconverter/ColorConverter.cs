@@ -41,37 +41,53 @@ namespace colorconverter {
 			#line 41 "/my-component/src/colorconverter/ColorConverter.hx"
 			this.maglev.register("ColorConverter.FromCMYK", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_41__Fun(bus)));
 			#line 52 "/my-component/src/colorconverter/ColorConverter.hx"
-			this.maglev.register("ColorConverter.ConvertRGB", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_52__Fun(bus)));
+			this.maglev.register("ColorConverter.FromHEX", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_52__Fun(bus)));
 			#line 63 "/my-component/src/colorconverter/ColorConverter.hx"
-			this.maglev.register("ColorConverter.ConvertCIELAB", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_63__Fun(bus)));
+			this.maglev.register("ColorConverter.FromXYZ", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_63__Fun(bus)));
 			#line 74 "/my-component/src/colorconverter/ColorConverter.hx"
-			this.maglev.register("ColorConverter.ConvertCMYK", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_74__Fun(bus)));
+			this.maglev.register("ColorConverter.ConvertRGB", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_74__Fun(bus)));
 			#line 85 "/my-component/src/colorconverter/ColorConverter.hx"
-			this.maglev.register("ColorConverter.AddReferenceColorByRGB", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_85__Fun(bus)));
+			this.maglev.register("ColorConverter.ConvertCIELAB", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_85__Fun(bus)));
 			#line 96 "/my-component/src/colorconverter/ColorConverter.hx"
-			this.maglev.register("ColorConverter.AddReferenceColorByCIELAB", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_96__Fun(bus)));
+			this.maglev.register("ColorConverter.ConvertCMYK", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_96__Fun(bus)));
 			#line 107 "/my-component/src/colorconverter/ColorConverter.hx"
-			this.maglev.register("ColorConverter.AddReferenceColorByCMYK", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_107__Fun(bus)));
+			this.maglev.register("ColorConverter.ConvertHEX", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_107__Fun(bus)));
 			#line 118 "/my-component/src/colorconverter/ColorConverter.hx"
-			this.maglev.register("ColorConverter.FindReferenceColorByRGB", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_118__Fun(bus)));
+			this.maglev.register("ColorConverter.ConvertXYZ", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_118__Fun(bus)));
 			#line 129 "/my-component/src/colorconverter/ColorConverter.hx"
-			this.maglev.register("ColorConverter.FindReferenceColorByCIELAB", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_129__Fun(bus)));
+			this.maglev.register("ColorConverter.AddReferenceColorByRGB", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_129__Fun(bus)));
 			#line 140 "/my-component/src/colorconverter/ColorConverter.hx"
-			this.maglev.register("ColorConverter.FindReferenceColorByCMYK", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_140__Fun(bus)));
+			this.maglev.register("ColorConverter.AddReferenceColorByCIELAB", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_140__Fun(bus)));
 			#line 151 "/my-component/src/colorconverter/ColorConverter.hx"
-			this.maglev.register("ColorConverter.FindReferenceColor", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_151__Fun(bus)));
+			this.maglev.register("ColorConverter.AddReferenceColorByCMYK", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_151__Fun(bus)));
 			#line 162 "/my-component/src/colorconverter/ColorConverter.hx"
-			this.maglev.register("ColorConverter.RemoveReferenceColorSystem", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_162__Fun(bus)));
+			this.maglev.register("ColorConverter.AddReferenceColorByHEX", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_162__Fun(bus)));
 			#line 173 "/my-component/src/colorconverter/ColorConverter.hx"
-			this.maglev.register("ColorConverter.GetReferenceColorSystems", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_173__Fun(bus)));
+			this.maglev.register("ColorConverter.AddReferenceColorByXYZ", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_173__Fun(bus)));
 			#line 184 "/my-component/src/colorconverter/ColorConverter.hx"
-			this.maglev.register("ColorConverter.GetReferenceColors", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_184__Fun(bus)));
+			this.maglev.register("ColorConverter.FindReferenceColorByRGB", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_184__Fun(bus)));
 			#line 195 "/my-component/src/colorconverter/ColorConverter.hx"
-			this.maglev.register("ColorConverter.GetIlluminationObserverAngles", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_195__Fun(bus)));
+			this.maglev.register("ColorConverter.FindReferenceColorByCIELAB", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_195__Fun(bus)));
 			#line 206 "/my-component/src/colorconverter/ColorConverter.hx"
-			this.maglev.register("ColorConverter.SaveReferenceColors", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_206__Fun(bus)));
+			this.maglev.register("ColorConverter.FindReferenceColorByCMYK", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_206__Fun(bus)));
 			#line 217 "/my-component/src/colorconverter/ColorConverter.hx"
-			this.maglev.register("ColorConverter.LoadReferenceColors", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_217__Fun(bus)));
+			this.maglev.register("ColorConverter.FindReferenceColorByHEX", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_217__Fun(bus)));
+			#line 228 "/my-component/src/colorconverter/ColorConverter.hx"
+			this.maglev.register("ColorConverter.FindReferenceColorByXYZ", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_228__Fun(bus)));
+			#line 239 "/my-component/src/colorconverter/ColorConverter.hx"
+			this.maglev.register("ColorConverter.FindReferenceColor", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_239__Fun(bus)));
+			#line 250 "/my-component/src/colorconverter/ColorConverter.hx"
+			this.maglev.register("ColorConverter.RemoveReferenceColorSystem", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_250__Fun(bus)));
+			#line 261 "/my-component/src/colorconverter/ColorConverter.hx"
+			this.maglev.register("ColorConverter.GetReferenceColorSystems", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_261__Fun(bus)));
+			#line 272 "/my-component/src/colorconverter/ColorConverter.hx"
+			this.maglev.register("ColorConverter.GetReferenceColors", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_272__Fun(bus)));
+			#line 283 "/my-component/src/colorconverter/ColorConverter.hx"
+			this.maglev.register("ColorConverter.GetIlluminationObserverAngles", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_283__Fun(bus)));
+			#line 294 "/my-component/src/colorconverter/ColorConverter.hx"
+			this.maglev.register("ColorConverter.SaveReferenceColors", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_294__Fun(bus)));
+			#line 305 "/my-component/src/colorconverter/ColorConverter.hx"
+			this.maglev.register("ColorConverter.LoadReferenceColors", global::maglev.MagLevFunction.fromFunction(new global::colorconverter.ColorConverter_registerMyMethods_305__Fun(bus)));
 		}
 		#line default
 		
@@ -304,12 +320,12 @@ namespace colorconverter {
 				global::maglev.MagLevArray data = global::maglev.MagLevArray.create();
 				#line 54 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("_not_implemented_"));
-				data.push(global::maglev.MagLevString.fromString("ColorConverter.ConvertRGB"));
+				data.push(global::maglev.MagLevString.fromString("ColorConverter.FromHEX"));
 				#line 56 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("colorconverter"));
 				this.bus.call("MindPowered.Telemetry.Send", data);
 				#line 58 "/my-component/src/colorconverter/ColorConverter.hx"
-				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.ConvertRGB\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.FromHEX\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
 				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
 				#line 60 "/my-component/src/colorconverter/ColorConverter.hx"
 				return result;
@@ -342,12 +358,12 @@ namespace colorconverter {
 				global::maglev.MagLevArray data = global::maglev.MagLevArray.create();
 				#line 65 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("_not_implemented_"));
-				data.push(global::maglev.MagLevString.fromString("ColorConverter.ConvertCIELAB"));
+				data.push(global::maglev.MagLevString.fromString("ColorConverter.FromXYZ"));
 				#line 67 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("colorconverter"));
 				this.bus.call("MindPowered.Telemetry.Send", data);
 				#line 69 "/my-component/src/colorconverter/ColorConverter.hx"
-				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.ConvertCIELAB\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.FromXYZ\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
 				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
 				#line 71 "/my-component/src/colorconverter/ColorConverter.hx"
 				return result;
@@ -380,12 +396,12 @@ namespace colorconverter {
 				global::maglev.MagLevArray data = global::maglev.MagLevArray.create();
 				#line 76 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("_not_implemented_"));
-				data.push(global::maglev.MagLevString.fromString("ColorConverter.ConvertCMYK"));
+				data.push(global::maglev.MagLevString.fromString("ColorConverter.ConvertRGB"));
 				#line 78 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("colorconverter"));
 				this.bus.call("MindPowered.Telemetry.Send", data);
 				#line 80 "/my-component/src/colorconverter/ColorConverter.hx"
-				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.ConvertCMYK\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.ConvertRGB\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
 				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
 				#line 82 "/my-component/src/colorconverter/ColorConverter.hx"
 				return result;
@@ -418,12 +434,12 @@ namespace colorconverter {
 				global::maglev.MagLevArray data = global::maglev.MagLevArray.create();
 				#line 87 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("_not_implemented_"));
-				data.push(global::maglev.MagLevString.fromString("ColorConverter.AddReferenceColorByRGB"));
+				data.push(global::maglev.MagLevString.fromString("ColorConverter.ConvertCIELAB"));
 				#line 89 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("colorconverter"));
 				this.bus.call("MindPowered.Telemetry.Send", data);
 				#line 91 "/my-component/src/colorconverter/ColorConverter.hx"
-				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.AddReferenceColorByRGB\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.ConvertCIELAB\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
 				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
 				#line 93 "/my-component/src/colorconverter/ColorConverter.hx"
 				return result;
@@ -456,12 +472,12 @@ namespace colorconverter {
 				global::maglev.MagLevArray data = global::maglev.MagLevArray.create();
 				#line 98 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("_not_implemented_"));
-				data.push(global::maglev.MagLevString.fromString("ColorConverter.AddReferenceColorByCIELAB"));
+				data.push(global::maglev.MagLevString.fromString("ColorConverter.ConvertCMYK"));
 				#line 100 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("colorconverter"));
 				this.bus.call("MindPowered.Telemetry.Send", data);
 				#line 102 "/my-component/src/colorconverter/ColorConverter.hx"
-				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.AddReferenceColorByCIELAB\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.ConvertCMYK\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
 				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
 				#line 104 "/my-component/src/colorconverter/ColorConverter.hx"
 				return result;
@@ -494,12 +510,12 @@ namespace colorconverter {
 				global::maglev.MagLevArray data = global::maglev.MagLevArray.create();
 				#line 109 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("_not_implemented_"));
-				data.push(global::maglev.MagLevString.fromString("ColorConverter.AddReferenceColorByCMYK"));
+				data.push(global::maglev.MagLevString.fromString("ColorConverter.ConvertHEX"));
 				#line 111 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("colorconverter"));
 				this.bus.call("MindPowered.Telemetry.Send", data);
 				#line 113 "/my-component/src/colorconverter/ColorConverter.hx"
-				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.AddReferenceColorByCMYK\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.ConvertHEX\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
 				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
 				#line 115 "/my-component/src/colorconverter/ColorConverter.hx"
 				return result;
@@ -532,12 +548,12 @@ namespace colorconverter {
 				global::maglev.MagLevArray data = global::maglev.MagLevArray.create();
 				#line 120 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("_not_implemented_"));
-				data.push(global::maglev.MagLevString.fromString("ColorConverter.FindReferenceColorByRGB"));
+				data.push(global::maglev.MagLevString.fromString("ColorConverter.ConvertXYZ"));
 				#line 122 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("colorconverter"));
 				this.bus.call("MindPowered.Telemetry.Send", data);
 				#line 124 "/my-component/src/colorconverter/ColorConverter.hx"
-				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.FindReferenceColorByRGB\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.ConvertXYZ\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
 				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
 				#line 126 "/my-component/src/colorconverter/ColorConverter.hx"
 				return result;
@@ -570,12 +586,12 @@ namespace colorconverter {
 				global::maglev.MagLevArray data = global::maglev.MagLevArray.create();
 				#line 131 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("_not_implemented_"));
-				data.push(global::maglev.MagLevString.fromString("ColorConverter.FindReferenceColorByCIELAB"));
+				data.push(global::maglev.MagLevString.fromString("ColorConverter.AddReferenceColorByRGB"));
 				#line 133 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("colorconverter"));
 				this.bus.call("MindPowered.Telemetry.Send", data);
 				#line 135 "/my-component/src/colorconverter/ColorConverter.hx"
-				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.FindReferenceColorByCIELAB\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.AddReferenceColorByRGB\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
 				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
 				#line 137 "/my-component/src/colorconverter/ColorConverter.hx"
 				return result;
@@ -608,12 +624,12 @@ namespace colorconverter {
 				global::maglev.MagLevArray data = global::maglev.MagLevArray.create();
 				#line 142 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("_not_implemented_"));
-				data.push(global::maglev.MagLevString.fromString("ColorConverter.FindReferenceColorByCMYK"));
+				data.push(global::maglev.MagLevString.fromString("ColorConverter.AddReferenceColorByCIELAB"));
 				#line 144 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("colorconverter"));
 				this.bus.call("MindPowered.Telemetry.Send", data);
 				#line 146 "/my-component/src/colorconverter/ColorConverter.hx"
-				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.FindReferenceColorByCMYK\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.AddReferenceColorByCIELAB\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
 				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
 				#line 148 "/my-component/src/colorconverter/ColorConverter.hx"
 				return result;
@@ -646,12 +662,12 @@ namespace colorconverter {
 				global::maglev.MagLevArray data = global::maglev.MagLevArray.create();
 				#line 153 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("_not_implemented_"));
-				data.push(global::maglev.MagLevString.fromString("ColorConverter.FindReferenceColor"));
+				data.push(global::maglev.MagLevString.fromString("ColorConverter.AddReferenceColorByCMYK"));
 				#line 155 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("colorconverter"));
 				this.bus.call("MindPowered.Telemetry.Send", data);
 				#line 157 "/my-component/src/colorconverter/ColorConverter.hx"
-				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.FindReferenceColor\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.AddReferenceColorByCMYK\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
 				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
 				#line 159 "/my-component/src/colorconverter/ColorConverter.hx"
 				return result;
@@ -684,12 +700,12 @@ namespace colorconverter {
 				global::maglev.MagLevArray data = global::maglev.MagLevArray.create();
 				#line 164 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("_not_implemented_"));
-				data.push(global::maglev.MagLevString.fromString("ColorConverter.RemoveReferenceColorSystem"));
+				data.push(global::maglev.MagLevString.fromString("ColorConverter.AddReferenceColorByHEX"));
 				#line 166 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("colorconverter"));
 				this.bus.call("MindPowered.Telemetry.Send", data);
 				#line 168 "/my-component/src/colorconverter/ColorConverter.hx"
-				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.RemoveReferenceColorSystem\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.AddReferenceColorByHEX\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
 				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
 				#line 170 "/my-component/src/colorconverter/ColorConverter.hx"
 				return result;
@@ -722,12 +738,12 @@ namespace colorconverter {
 				global::maglev.MagLevArray data = global::maglev.MagLevArray.create();
 				#line 175 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("_not_implemented_"));
-				data.push(global::maglev.MagLevString.fromString("ColorConverter.GetReferenceColorSystems"));
+				data.push(global::maglev.MagLevString.fromString("ColorConverter.AddReferenceColorByXYZ"));
 				#line 177 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("colorconverter"));
 				this.bus.call("MindPowered.Telemetry.Send", data);
 				#line 179 "/my-component/src/colorconverter/ColorConverter.hx"
-				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.GetReferenceColorSystems\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.AddReferenceColorByXYZ\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
 				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
 				#line 181 "/my-component/src/colorconverter/ColorConverter.hx"
 				return result;
@@ -760,12 +776,12 @@ namespace colorconverter {
 				global::maglev.MagLevArray data = global::maglev.MagLevArray.create();
 				#line 186 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("_not_implemented_"));
-				data.push(global::maglev.MagLevString.fromString("ColorConverter.GetReferenceColors"));
+				data.push(global::maglev.MagLevString.fromString("ColorConverter.FindReferenceColorByRGB"));
 				#line 188 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("colorconverter"));
 				this.bus.call("MindPowered.Telemetry.Send", data);
 				#line 190 "/my-component/src/colorconverter/ColorConverter.hx"
-				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.GetReferenceColors\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.FindReferenceColorByRGB\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
 				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
 				#line 192 "/my-component/src/colorconverter/ColorConverter.hx"
 				return result;
@@ -798,12 +814,12 @@ namespace colorconverter {
 				global::maglev.MagLevArray data = global::maglev.MagLevArray.create();
 				#line 197 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("_not_implemented_"));
-				data.push(global::maglev.MagLevString.fromString("ColorConverter.GetIlluminationObserverAngles"));
+				data.push(global::maglev.MagLevString.fromString("ColorConverter.FindReferenceColorByCIELAB"));
 				#line 199 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("colorconverter"));
 				this.bus.call("MindPowered.Telemetry.Send", data);
 				#line 201 "/my-component/src/colorconverter/ColorConverter.hx"
-				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.GetIlluminationObserverAngles\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.FindReferenceColorByCIELAB\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
 				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
 				#line 203 "/my-component/src/colorconverter/ColorConverter.hx"
 				return result;
@@ -836,12 +852,12 @@ namespace colorconverter {
 				global::maglev.MagLevArray data = global::maglev.MagLevArray.create();
 				#line 208 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("_not_implemented_"));
-				data.push(global::maglev.MagLevString.fromString("ColorConverter.SaveReferenceColors"));
+				data.push(global::maglev.MagLevString.fromString("ColorConverter.FindReferenceColorByCMYK"));
 				#line 210 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("colorconverter"));
 				this.bus.call("MindPowered.Telemetry.Send", data);
 				#line 212 "/my-component/src/colorconverter/ColorConverter.hx"
-				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.SaveReferenceColors\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.FindReferenceColorByCMYK\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
 				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
 				#line 214 "/my-component/src/colorconverter/ColorConverter.hx"
 				return result;
@@ -874,14 +890,318 @@ namespace colorconverter {
 				global::maglev.MagLevArray data = global::maglev.MagLevArray.create();
 				#line 219 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("_not_implemented_"));
-				data.push(global::maglev.MagLevString.fromString("ColorConverter.LoadReferenceColors"));
+				data.push(global::maglev.MagLevString.fromString("ColorConverter.FindReferenceColorByHEX"));
 				#line 221 "/my-component/src/colorconverter/ColorConverter.hx"
 				data.push(global::maglev.MagLevString.fromString("colorconverter"));
 				this.bus.call("MindPowered.Telemetry.Send", data);
 				#line 223 "/my-component/src/colorconverter/ColorConverter.hx"
-				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.LoadReferenceColors\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.FindReferenceColorByHEX\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
 				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
 				#line 225 "/my-component/src/colorconverter/ColorConverter.hx"
+				return result;
+			}
+			#line default
+		}
+		
+		
+		public global::maglev.MagLev bus;
+		
+	}
+}
+
+
+
+#pragma warning disable 109, 114, 219, 429, 168, 162
+namespace colorconverter {
+	public class ColorConverter_registerMyMethods_228__Fun : global::haxe.lang.Function {
+		
+		public ColorConverter_registerMyMethods_228__Fun(global::maglev.MagLev bus) : base(1, 0) {
+			#line 228 "/my-component/src/colorconverter/ColorConverter.hx"
+			this.bus = bus;
+		}
+		#line default
+		
+		public override object __hx_invoke1_o(double __fn_float1, object __fn_dyn1) {
+			unchecked {
+				#line 228 "/my-component/src/colorconverter/ColorConverter.hx"
+				global::maglev.MagLevArray args = ( (( __fn_dyn1 == global::haxe.lang.Runtime.undefined )) ? (((global::maglev.MagLevArray) (((object) (__fn_float1) )) )) : (((global::maglev.MagLevArray) (__fn_dyn1) )) );
+				global::maglev.MagLevArray data = global::maglev.MagLevArray.create();
+				#line 230 "/my-component/src/colorconverter/ColorConverter.hx"
+				data.push(global::maglev.MagLevString.fromString("_not_implemented_"));
+				data.push(global::maglev.MagLevString.fromString("ColorConverter.FindReferenceColorByXYZ"));
+				#line 232 "/my-component/src/colorconverter/ColorConverter.hx"
+				data.push(global::maglev.MagLevString.fromString("colorconverter"));
+				this.bus.call("MindPowered.Telemetry.Send", data);
+				#line 234 "/my-component/src/colorconverter/ColorConverter.hx"
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.FindReferenceColorByXYZ\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
+				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
+				#line 236 "/my-component/src/colorconverter/ColorConverter.hx"
+				return result;
+			}
+			#line default
+		}
+		
+		
+		public global::maglev.MagLev bus;
+		
+	}
+}
+
+
+
+#pragma warning disable 109, 114, 219, 429, 168, 162
+namespace colorconverter {
+	public class ColorConverter_registerMyMethods_239__Fun : global::haxe.lang.Function {
+		
+		public ColorConverter_registerMyMethods_239__Fun(global::maglev.MagLev bus) : base(1, 0) {
+			#line 239 "/my-component/src/colorconverter/ColorConverter.hx"
+			this.bus = bus;
+		}
+		#line default
+		
+		public override object __hx_invoke1_o(double __fn_float1, object __fn_dyn1) {
+			unchecked {
+				#line 239 "/my-component/src/colorconverter/ColorConverter.hx"
+				global::maglev.MagLevArray args = ( (( __fn_dyn1 == global::haxe.lang.Runtime.undefined )) ? (((global::maglev.MagLevArray) (((object) (__fn_float1) )) )) : (((global::maglev.MagLevArray) (__fn_dyn1) )) );
+				global::maglev.MagLevArray data = global::maglev.MagLevArray.create();
+				#line 241 "/my-component/src/colorconverter/ColorConverter.hx"
+				data.push(global::maglev.MagLevString.fromString("_not_implemented_"));
+				data.push(global::maglev.MagLevString.fromString("ColorConverter.FindReferenceColor"));
+				#line 243 "/my-component/src/colorconverter/ColorConverter.hx"
+				data.push(global::maglev.MagLevString.fromString("colorconverter"));
+				this.bus.call("MindPowered.Telemetry.Send", data);
+				#line 245 "/my-component/src/colorconverter/ColorConverter.hx"
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.FindReferenceColor\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
+				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
+				#line 247 "/my-component/src/colorconverter/ColorConverter.hx"
+				return result;
+			}
+			#line default
+		}
+		
+		
+		public global::maglev.MagLev bus;
+		
+	}
+}
+
+
+
+#pragma warning disable 109, 114, 219, 429, 168, 162
+namespace colorconverter {
+	public class ColorConverter_registerMyMethods_250__Fun : global::haxe.lang.Function {
+		
+		public ColorConverter_registerMyMethods_250__Fun(global::maglev.MagLev bus) : base(1, 0) {
+			#line 250 "/my-component/src/colorconverter/ColorConverter.hx"
+			this.bus = bus;
+		}
+		#line default
+		
+		public override object __hx_invoke1_o(double __fn_float1, object __fn_dyn1) {
+			unchecked {
+				#line 250 "/my-component/src/colorconverter/ColorConverter.hx"
+				global::maglev.MagLevArray args = ( (( __fn_dyn1 == global::haxe.lang.Runtime.undefined )) ? (((global::maglev.MagLevArray) (((object) (__fn_float1) )) )) : (((global::maglev.MagLevArray) (__fn_dyn1) )) );
+				global::maglev.MagLevArray data = global::maglev.MagLevArray.create();
+				#line 252 "/my-component/src/colorconverter/ColorConverter.hx"
+				data.push(global::maglev.MagLevString.fromString("_not_implemented_"));
+				data.push(global::maglev.MagLevString.fromString("ColorConverter.RemoveReferenceColorSystem"));
+				#line 254 "/my-component/src/colorconverter/ColorConverter.hx"
+				data.push(global::maglev.MagLevString.fromString("colorconverter"));
+				this.bus.call("MindPowered.Telemetry.Send", data);
+				#line 256 "/my-component/src/colorconverter/ColorConverter.hx"
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.RemoveReferenceColorSystem\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
+				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
+				#line 258 "/my-component/src/colorconverter/ColorConverter.hx"
+				return result;
+			}
+			#line default
+		}
+		
+		
+		public global::maglev.MagLev bus;
+		
+	}
+}
+
+
+
+#pragma warning disable 109, 114, 219, 429, 168, 162
+namespace colorconverter {
+	public class ColorConverter_registerMyMethods_261__Fun : global::haxe.lang.Function {
+		
+		public ColorConverter_registerMyMethods_261__Fun(global::maglev.MagLev bus) : base(1, 0) {
+			#line 261 "/my-component/src/colorconverter/ColorConverter.hx"
+			this.bus = bus;
+		}
+		#line default
+		
+		public override object __hx_invoke1_o(double __fn_float1, object __fn_dyn1) {
+			unchecked {
+				#line 261 "/my-component/src/colorconverter/ColorConverter.hx"
+				global::maglev.MagLevArray args = ( (( __fn_dyn1 == global::haxe.lang.Runtime.undefined )) ? (((global::maglev.MagLevArray) (((object) (__fn_float1) )) )) : (((global::maglev.MagLevArray) (__fn_dyn1) )) );
+				global::maglev.MagLevArray data = global::maglev.MagLevArray.create();
+				#line 263 "/my-component/src/colorconverter/ColorConverter.hx"
+				data.push(global::maglev.MagLevString.fromString("_not_implemented_"));
+				data.push(global::maglev.MagLevString.fromString("ColorConverter.GetReferenceColorSystems"));
+				#line 265 "/my-component/src/colorconverter/ColorConverter.hx"
+				data.push(global::maglev.MagLevString.fromString("colorconverter"));
+				this.bus.call("MindPowered.Telemetry.Send", data);
+				#line 267 "/my-component/src/colorconverter/ColorConverter.hx"
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.GetReferenceColorSystems\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
+				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
+				#line 269 "/my-component/src/colorconverter/ColorConverter.hx"
+				return result;
+			}
+			#line default
+		}
+		
+		
+		public global::maglev.MagLev bus;
+		
+	}
+}
+
+
+
+#pragma warning disable 109, 114, 219, 429, 168, 162
+namespace colorconverter {
+	public class ColorConverter_registerMyMethods_272__Fun : global::haxe.lang.Function {
+		
+		public ColorConverter_registerMyMethods_272__Fun(global::maglev.MagLev bus) : base(1, 0) {
+			#line 272 "/my-component/src/colorconverter/ColorConverter.hx"
+			this.bus = bus;
+		}
+		#line default
+		
+		public override object __hx_invoke1_o(double __fn_float1, object __fn_dyn1) {
+			unchecked {
+				#line 272 "/my-component/src/colorconverter/ColorConverter.hx"
+				global::maglev.MagLevArray args = ( (( __fn_dyn1 == global::haxe.lang.Runtime.undefined )) ? (((global::maglev.MagLevArray) (((object) (__fn_float1) )) )) : (((global::maglev.MagLevArray) (__fn_dyn1) )) );
+				global::maglev.MagLevArray data = global::maglev.MagLevArray.create();
+				#line 274 "/my-component/src/colorconverter/ColorConverter.hx"
+				data.push(global::maglev.MagLevString.fromString("_not_implemented_"));
+				data.push(global::maglev.MagLevString.fromString("ColorConverter.GetReferenceColors"));
+				#line 276 "/my-component/src/colorconverter/ColorConverter.hx"
+				data.push(global::maglev.MagLevString.fromString("colorconverter"));
+				this.bus.call("MindPowered.Telemetry.Send", data);
+				#line 278 "/my-component/src/colorconverter/ColorConverter.hx"
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.GetReferenceColors\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
+				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
+				#line 280 "/my-component/src/colorconverter/ColorConverter.hx"
+				return result;
+			}
+			#line default
+		}
+		
+		
+		public global::maglev.MagLev bus;
+		
+	}
+}
+
+
+
+#pragma warning disable 109, 114, 219, 429, 168, 162
+namespace colorconverter {
+	public class ColorConverter_registerMyMethods_283__Fun : global::haxe.lang.Function {
+		
+		public ColorConverter_registerMyMethods_283__Fun(global::maglev.MagLev bus) : base(1, 0) {
+			#line 283 "/my-component/src/colorconverter/ColorConverter.hx"
+			this.bus = bus;
+		}
+		#line default
+		
+		public override object __hx_invoke1_o(double __fn_float1, object __fn_dyn1) {
+			unchecked {
+				#line 283 "/my-component/src/colorconverter/ColorConverter.hx"
+				global::maglev.MagLevArray args = ( (( __fn_dyn1 == global::haxe.lang.Runtime.undefined )) ? (((global::maglev.MagLevArray) (((object) (__fn_float1) )) )) : (((global::maglev.MagLevArray) (__fn_dyn1) )) );
+				global::maglev.MagLevArray data = global::maglev.MagLevArray.create();
+				#line 285 "/my-component/src/colorconverter/ColorConverter.hx"
+				data.push(global::maglev.MagLevString.fromString("_not_implemented_"));
+				data.push(global::maglev.MagLevString.fromString("ColorConverter.GetIlluminationObserverAngles"));
+				#line 287 "/my-component/src/colorconverter/ColorConverter.hx"
+				data.push(global::maglev.MagLevString.fromString("colorconverter"));
+				this.bus.call("MindPowered.Telemetry.Send", data);
+				#line 289 "/my-component/src/colorconverter/ColorConverter.hx"
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.GetIlluminationObserverAngles\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
+				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
+				#line 291 "/my-component/src/colorconverter/ColorConverter.hx"
+				return result;
+			}
+			#line default
+		}
+		
+		
+		public global::maglev.MagLev bus;
+		
+	}
+}
+
+
+
+#pragma warning disable 109, 114, 219, 429, 168, 162
+namespace colorconverter {
+	public class ColorConverter_registerMyMethods_294__Fun : global::haxe.lang.Function {
+		
+		public ColorConverter_registerMyMethods_294__Fun(global::maglev.MagLev bus) : base(1, 0) {
+			#line 294 "/my-component/src/colorconverter/ColorConverter.hx"
+			this.bus = bus;
+		}
+		#line default
+		
+		public override object __hx_invoke1_o(double __fn_float1, object __fn_dyn1) {
+			unchecked {
+				#line 294 "/my-component/src/colorconverter/ColorConverter.hx"
+				global::maglev.MagLevArray args = ( (( __fn_dyn1 == global::haxe.lang.Runtime.undefined )) ? (((global::maglev.MagLevArray) (((object) (__fn_float1) )) )) : (((global::maglev.MagLevArray) (__fn_dyn1) )) );
+				global::maglev.MagLevArray data = global::maglev.MagLevArray.create();
+				#line 296 "/my-component/src/colorconverter/ColorConverter.hx"
+				data.push(global::maglev.MagLevString.fromString("_not_implemented_"));
+				data.push(global::maglev.MagLevString.fromString("ColorConverter.SaveReferenceColors"));
+				#line 298 "/my-component/src/colorconverter/ColorConverter.hx"
+				data.push(global::maglev.MagLevString.fromString("colorconverter"));
+				this.bus.call("MindPowered.Telemetry.Send", data);
+				#line 300 "/my-component/src/colorconverter/ColorConverter.hx"
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.SaveReferenceColors\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
+				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
+				#line 302 "/my-component/src/colorconverter/ColorConverter.hx"
+				return result;
+			}
+			#line default
+		}
+		
+		
+		public global::maglev.MagLev bus;
+		
+	}
+}
+
+
+
+#pragma warning disable 109, 114, 219, 429, 168, 162
+namespace colorconverter {
+	public class ColorConverter_registerMyMethods_305__Fun : global::haxe.lang.Function {
+		
+		public ColorConverter_registerMyMethods_305__Fun(global::maglev.MagLev bus) : base(1, 0) {
+			#line 305 "/my-component/src/colorconverter/ColorConverter.hx"
+			this.bus = bus;
+		}
+		#line default
+		
+		public override object __hx_invoke1_o(double __fn_float1, object __fn_dyn1) {
+			unchecked {
+				#line 305 "/my-component/src/colorconverter/ColorConverter.hx"
+				global::maglev.MagLevArray args = ( (( __fn_dyn1 == global::haxe.lang.Runtime.undefined )) ? (((global::maglev.MagLevArray) (((object) (__fn_float1) )) )) : (((global::maglev.MagLevArray) (__fn_dyn1) )) );
+				global::maglev.MagLevArray data = global::maglev.MagLevArray.create();
+				#line 307 "/my-component/src/colorconverter/ColorConverter.hx"
+				data.push(global::maglev.MagLevString.fromString("_not_implemented_"));
+				data.push(global::maglev.MagLevString.fromString("ColorConverter.LoadReferenceColors"));
+				#line 309 "/my-component/src/colorconverter/ColorConverter.hx"
+				data.push(global::maglev.MagLevString.fromString("colorconverter"));
+				this.bus.call("MindPowered.Telemetry.Send", data);
+				#line 311 "/my-component/src/colorconverter/ColorConverter.hx"
+				global::maglev.MagLevError err = global::maglev.MagLevError.create(-20000, "You are trying to use the \'ColorConverter.LoadReferenceColors\' method but it\'s not quite done yet. Please email support@mindpowered.dev to find out when it will be done.", data);
+				global::maglev.MagLevResult result = global::maglev.MagLevResult.fromError(err);
+				#line 313 "/my-component/src/colorconverter/ColorConverter.hx"
 				return result;
 			}
 			#line default
