@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>mindpowered.colorconverter</id>
-    <version>0.0.5</version>
+    <version>0.0.6</version>
     <title>colorconverter</title>
     <authors>Mind Powered Corporation</authors>
     <owners>Mind Powered Corporation</owners>
@@ -11,7 +11,7 @@
     <iconUrl>https://www.website.com/logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Converter to convert between various color systems such as RGB, CIELAB, CMYK, HEX, RGB, and XYZ</description>
-    <releaseNotes>Version 0.0.5</releaseNotes>
+    <releaseNotes>Version 0.0.6</releaseNotes>
     <copyright>Copyright 2020 Mind Powered Corporation</copyright>
     <tags>mindpowered</tags>
     <dependencies>
